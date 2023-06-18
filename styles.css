@@ -6,7 +6,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: merriweather, serif;
 }
 
@@ -26,10 +26,15 @@ h4 {
  font-size: 12px;
 }
 	
+/*
 .logo {
  font-family: proxima-nova, sans-serif;
  letter-spacing: 1px;
  font-size: 36px;
+} */
+
+container {padding: 0px;
+	
 }
 
 .statement {
@@ -39,23 +44,23 @@ h4 {
 	padding-left: 370px;
 	line-height: 1.6;
 }
-
-
 .cv {
-  margin-left: 420px;
-  font-size: 15px;
-  margin-right: 160px;
+  padding: 0 4px;
+  margin-left: 250px;
+  padding-left: 20px;	
 }
 
 .about {
-  margin-left: 420px;
-	margin-top: 0;
+  padding: 0 4px;
+  margin-left: 250px;
+  padding-left: 20px;	
 }
 
 img {
 	 float: left;
 }
 
+/*
 
 .accordion {
   width: 250px;
@@ -74,12 +79,13 @@ img {
   transition: 0.4s;
   font-size: 15px;
 }
-
+*/
 
 .active, .accordion:hover {
   background-color: #ccc; 
 }
 
+/*
 .panel {
   padding: 0 18px;
   display: none;
@@ -87,6 +93,7 @@ img {
   max-height: 0;
   transition: max-height 0.2s ease-out;
 }
+*/
 
 .fa {
   padding: 0px;
