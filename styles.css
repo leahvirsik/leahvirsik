@@ -8,6 +8,7 @@
 body {
   margin: 0px;
   font-family: merriweather, serif;
+	max-width: 800px;
 }
 
 h4 {
@@ -40,8 +41,6 @@ container {padding: 0px;
 .statement {
   font-family: merriweather, serif;
   font-size: 15px;
-	width: 780px;
-	padding-left: 370px;
 	line-height: 1.6;
 }
 .cv {
@@ -54,10 +53,6 @@ container {padding: 0px;
   padding: 0 4px;
   margin-left: 250px;
   padding-left: 20px;	
-}
-
-img {
-	 float: left;
 }
 
 /*
