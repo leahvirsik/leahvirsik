@@ -176,3 +176,52 @@ w3-bar-item */
 
 .list {margin-left:50px}
 .list2 {margin-left:50px}
+
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #fff;
+  height: 500px;
+  color: #333;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #d1d3d4;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #333;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #fff;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: #777;
+}
+
+.active {
+  background-color: #fff;
+  color: green;
+}
+</style>
+</head>
+<body>
